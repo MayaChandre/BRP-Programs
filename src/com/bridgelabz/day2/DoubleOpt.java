@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 	public class DoubleOpt {
 	    public static void main(String[] args) {
-	        Scanner cs = new Scanner(System.in);
-	        Double a,b,c,num1,num2,num3,num4,result;
-	        System.out.println("Enter Value of a , b , c :");
+	        @SuppressWarnings("resource")
+			Scanner sc = new Scanner(System.in);
+	        Double a,b,c,num1,num2,num3,num4;
+	        System.out.println("Enter Value of a , b , c:");
 
-	        a = cs.nextDouble();
-	        b = cs.nextDouble();
-	        c = cs.nextDouble();
+	        a = sc.nextDouble();
+	        b = sc.nextDouble();
+	        c = sc.nextDouble();
 
 	        num1 = a + b * c;
 	        num2 = a * b + c;
@@ -23,4 +24,5 @@ import java.util.Scanner;
 	        System.out.println("num4 = a % b + c =>> "+num4);
 
 	    }
+
 }

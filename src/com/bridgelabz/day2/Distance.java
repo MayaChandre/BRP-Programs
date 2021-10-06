@@ -4,7 +4,8 @@ package com.bridgelabz.day2;
 
 	public class Distance {
 	    public static void main(String[] args) {
-	        Scanner cs = new Scanner(System.in);
+	        @SuppressWarnings("resource")
+			Scanner cs = new Scanner(System.in);
 	        double x ,y,distance;
 
 	        System.out.println("Enter Arguments x,y : ");

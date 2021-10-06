@@ -3,8 +3,9 @@ package com.bridgelabz.day2;
 import java.util.Scanner;
 public class IntOpt {
     public static void main(String[] args) {
-        Scanner cs = new Scanner(System.in);
-        int a,b,c,num1,num2,num3,num4,result;
+        @SuppressWarnings("resource")
+		Scanner cs = new Scanner(System.in);
+        int a,b,c,num1,num2,num3,num4;
         System.out.println("Enter Value of a , b , c :");
 
         a = cs.nextInt();

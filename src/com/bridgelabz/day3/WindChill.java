@@ -3,7 +3,7 @@ package com.bridgelabz.day3;
 import java.util.Scanner;
 public class WindChill {
     public static void main(String[] args) {
-        Scanner cs = new Scanner(System.in);
+		Scanner cs = new Scanner(System.in);
         double v,t,w;
         System.out.println("Enter Arguments of T and V : ");
         t = cs.nextDouble();

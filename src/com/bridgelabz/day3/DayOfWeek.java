@@ -37,7 +37,8 @@ package com.bridgelabz.day3;
 	            return  0;    }
 
 	    public static void main(String[] args) {
-	        Scanner cs = new Scanner(System.in);
+	        @SuppressWarnings("resource")
+			Scanner cs = new Scanner(System.in);
 	        String [] dayofweek = { " Invalid","Sun","Mon","Tue","Wed","Thur","Fri","Sat" };
 	        int y,m,d;
 	        System.out.println("Enter Year: ");
