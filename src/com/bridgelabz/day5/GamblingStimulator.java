@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class GamblingStimulator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter how many stake u have?");
